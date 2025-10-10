@@ -1,12 +1,21 @@
 body {
     background-color: black;
+    background-image: url('https://i.imgur.com/0Boirww.gif');
+    background-size: cover;
 }
 
 .navbar {
     background-color: rgb(50, 45, 45);
     padding: 15px;
+    gap: 14px;
     border-radius: 7px;
     display: flex;
+    transition: 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgba(50, 45, 45, 0.5);
+    transition: 0.5s;
 }
 
 .navbar a {
@@ -14,12 +23,12 @@ body {
     color: rgb(255, 255, 255);
     font-size: 20px;
     text-decoration: none;
-
+    transition: 0.5s;
 }
 
 .navbar a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgba(228, 221, 221, 0.1);
+    color: rgb(206, 34, 34);
+    transition: 0.5s;
     border-radius: 7px;
 }
 
@@ -38,13 +47,5 @@ body {
     font-size: 30px;
     color: rgb(207, 27, 27);
     font-family: 'Times New Roman', Times, serif;
-}
-
-.principal p {
-    font-size: 20px;
-    padding: 20px;
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
