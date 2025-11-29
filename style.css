@@ -16,6 +16,7 @@ body {
 
 .navbar:hover {
     background-color: rgba(50, 45, 45);
+    background-color: rgba(50, 45, 45, 0.5);
     transition: 0.5s;
 }
 
@@ -31,7 +32,9 @@ body {
 .navbar a:hover {
     color: rgb(206, 34, 34);
     transition: 0.5s;
+
     font-size: 21px;
+    border-radius: 7px;
 }
 
 /*logo que tá a direita na navbar, aquela lá*/
@@ -85,9 +88,3 @@ body {
     color: rgb(206, 34, 34);
     transition: 0.5s;
 }
-
-
-
-
-
-
