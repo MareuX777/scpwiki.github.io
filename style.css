@@ -1,27 +1,40 @@
 body {
     background-color: black;
+    background-size: cover;
 }
 
+/*navbar pae, não tem segredo*/
+
 .navbar {
-    background-color: rgb(50, 45, 45);
+    background-color: rgb(50, 45, 45, 0.5);
     padding: 15px;
+    gap: 14px;
     border-radius: 7px;
     display: flex;
+    transition: 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgba(50, 45, 45);
+    transition: 0.5s;
 }
 
 .navbar a {
+    position: relative;
     padding: 7px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     text-decoration: none;
-
+    transition: 0.5s;
 }
 
 .navbar a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgba(228, 221, 221, 0.1);
-    border-radius: 7px;
+    color: rgb(206, 34, 34);
+    transition: 0.5s;
+    font-size: 21px;
 }
+
+/*logo que tá a direita na navbar, aquela lá*/
 
 #logo {
     display: flex;
@@ -29,22 +42,52 @@ body {
     margin-left: auto;
 }
 
+#SCPWikiLogo {
+    height: 45px;
+}
+
+/*Shove it é muito bom, slk*/
+
 .principal {
-    text-align: center;
+    display: flex;
 }
 
-.principal h1 {
-    padding: 20px;
+.principalselector {
+    background-color: rgba(216, 197, 197, 0.3);
+    width: 20%;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infor {
+    background-color: rgba(216, 197, 197, 0.3);
+    width: 85%;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.principalselector a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    padding: 14px;
+    font-size: 17px;
+    transition: 0.5s;
     font-size: 30px;
-    color: rgb(207, 27, 27);
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.principal p {
-    font-size: 20px;
-    padding: 20px;
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+.principalselector a:hover {
+    color: rgb(206, 34, 34);
+    transition: 0.5s;
 }
+
+
+
+
+
 

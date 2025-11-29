@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+.navbar {
+    background-color: rgb(50, 45, 45, 0.5);
+    padding: 15px;
+    gap: 14px;
+    border-radius: 7px;
+    display: flex;
+    transition: 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgba(50, 45, 45);
+    transition: 0.5s;
+}
+
+.navbar a {
+    position: relative;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color: rgb(206, 34, 34);
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
